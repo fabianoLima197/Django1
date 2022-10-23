@@ -1,0 +1,45 @@
+instalar o django
+#pip install django
+
+criar lista de requerimentos
+#pip freeze > requirements.txt
+
+criar projeto dentro do projeto... e nao criar outro diretorio de outro diretorio,,, confuso mas com tempo entende
+se tiver duvida tenta criar sem o ponto e vc vai ver 
+#django-admin startproject "o nome do projeto" .
+
+sobre o problema de nao executar o comando no terminal foi necessario
+criar uma variavel de ambiente no script python: C:\Users\Fabiano_Lima.DESKTOP-M9BO289\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts
+isso na maquina stefanini ver qual o no meu no proximos pcs q usarei... CHUPPAAA
+
+o arquivo manager sera usado para executar comandos...
+
+__init__ transforma um arquivo em pacote
+
+middlware == um tipo de segurança um porteiro vai
+
+cria um diretorio com o nome da aplicação aliais cria uma aplicação
+django-admin startapp core
+
+startar o projeto sempre dentro da pasta aonde esta o manage.py
+python manage.py runserver
+
+Fazer migração logo depois de criar apartir da model para migration um classe acho
+para o banco de dados
+python manage.py makemigrations
+
+executa o q foi feito no primeiro comando
+python manage.py migrate
+
+
+loguin: fabiano_lima / 14785236Aa*
+
+cria uma pasta com os arquivol para estilizar o app
+python manage.py collectstatic
+
+para publicar na internet {
+biblioteca para mostrar os arquivos estaticos algo assim isso o whitenoise
+a biblioteca gunicorn e para executar o que executamos o mange.py runserver
+pip install whitenoise gunicorn
+
+}

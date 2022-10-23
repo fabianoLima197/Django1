@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Django -1- Contato</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <center>
+    <h1>Contato</h1>
+    <div>Aqui e a Area de Contato</div>
+
+     <button><a href="{% url 'index' %}">Index</a></button>
+    <img src="{% static 'images/PyDjango_menor.png'%}">
+    </center>
+
+</body>
+</html>
